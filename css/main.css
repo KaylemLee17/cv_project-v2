@@ -127,7 +127,7 @@ ul {
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
-	transition: 0.5s background linear;
+	transition: 0.8s background linear;
 }
 
 .site-nav ul li a:hover {
@@ -138,6 +138,7 @@ ul {
 {
 	background-color: rgba(0, 255, 255, 0.58);
 }
+
 
 /*////////////////////////////////////////////////////////////////////////
 //  04 - Blur styles
@@ -160,7 +161,8 @@ ul {
 }
 
 .overlay {
-    background: none repeat scroll 0 0 rgba(115, 224, 179, 0.72);
+	background-color: rgba(24, 77, 77, 0.93);
+	background-color: rgba(33, 103, 88, 0.9);
     width: 100%;
 	height: 100%;
 	text-align: center;
@@ -216,7 +218,7 @@ ul {
 
 .btn-hire {
 	text-transform: uppercase;
-	color: #111;
+	color: rgb(255, 255, 255);
 	border: 1px solid rgb(136, 138, 145);
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 300;
@@ -225,7 +227,7 @@ ul {
 	box-shadow: 0 3px 1px 0 rgba(20, 20, 26, 0.55);
 	border-radius: 0;
 	font-size: 18px;
-	background-color: rgba(247, 255, 248, 1);
+	background-color: rgb(0, 0, 0);
 	padding: 16px 48px;
 }
 
@@ -250,7 +252,7 @@ p {
 .block-heading-h1 {
     color: rgb(0, 129, 129);	
 	font-weight: 400;
-	padding-top: 0 4%;
+	padding-top: 5%;
     font-size: 55px;
     font-family:  'Milonga', cursive;
 }
@@ -302,104 +304,6 @@ h3 {
 .portfolio-grid div:hover .img-text {
 	opacity: 1;
 
-}
-
-
-/*///////////////////////////////////////////////////////////////////////
-//  06 - Latest works > isotope
-///////////////////////////////////////////////////////////////////////*/
-
-/* .isotope:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.element-item {
-  position: relative;
-  float: left;
-  width: 25%;
-  color: #262524;
-}
-
-.element-item > * {
-  margin: 0;
-  padding: 0;
-}
-
-.btn-view {
-	text-transform: uppercase;
-	color: lightseagreen;
-	border: 1px solid rgba(32, 178, 170, 0.86);
-	font-family: 'Oxygen', sans-serif;
-	font-weight: 300;
-	word-spacing: 5px;
-	letter-spacing: 1px;
-	border-radius: 0;
-	font-size: 18px;
-	padding: 16px 48px;
-}
-
-.btn-view:hover {
-	color: #fff;
-	border: 1px solid lightseagreen;
-	background-color: rgba(32, 178, 170, 0.86);
-} */
-
-
-/* ==============================  Image hover effect ============================== */
-
-
-.effect-zoe:hover figcaption, 
-.effect-zoe:hover h2, 
-.effect-zoe:hover p.icon-links a{
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-.effect-zoe h2 {
-	display: inline-block;
-}
-.effect-zoe figcaption{
-	top: auto;
-	bottom: 0;
-	padding: 1em;
-	height: 3.75em;
-	background: rgba(0,0,0,0.75);
-	color: #3c4a50;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
-}
-.grid  figcaption, .grid  figcaption > a{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.grid  figcaption{
-	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.grid .effect-zoe{
-	position: relative;
-	float: left;
-	overflow: hidden;
-	background: #3085a3;
-	text-align: center;
-	cursor: pointer;
-}
-.effect-zoe p.icon-links a i
-{
-	display: inline-block;
-	padding: 30px 10px;
-	color: cyan;
-	font-size: 22px;
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
