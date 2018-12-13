@@ -77,9 +77,7 @@ ul {
 #site-header {
 	position: fixed;
 	width: 100%;
-	/* background-color: #35405f; */
 	background-color: rgba(144, 146, 153, 0.94);
-	/* background-color: rgba(32, 178, 170, 0.86); */
 	padding: 0 30px;
 	z-index: 100;
 }
@@ -111,7 +109,7 @@ ul {
 
 .navbar {
 	border-radius: 0;
-	margin: 0;F
+	margin: 0;
 	border: none;
 }
 
@@ -136,7 +134,7 @@ ul {
 
 .site-nav ul li a:hover
 {
-	background-color: rgba(0, 255, 255, 0.58);
+	background-color: aqua;
 } 
 
 
@@ -145,24 +143,22 @@ ul {
 ///////////////////////////////////////////////////////////////////////*/
 
 #overlay-1 {
-	background-color: rgba(32, 30, 30, 0.52);
+	background-color: rgba(0, 0, 0, 0.24);
 	position: relative;
 }
 
 .overlay-2 {
 	padding: 60px 0;
-	background-color: rgba(50, 81, 121, 0.6);
+	background-color: aqua;
 }
 
 .overlay-3 {
 	padding: 60px 0;
-	background-color: rgba(24, 77, 77, 0.93);
-	background-color: rgba(33, 103, 88, 0.9);
+	background-color: lightgreen;
 }
 
 .overlay {
-	background-color: rgba(24, 77, 77, 0.93);
-	background-color: rgba(33, 103, 88, 0.9);
+	background-color: lightgreen;
     width: 100%;
 	height: 100%;
 	text-align: center;
@@ -238,7 +234,10 @@ ul {
 }
 
 p {
-	padding: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 /*////////////////////////////////////////////////////////////////////////
@@ -250,7 +249,7 @@ p {
 }
 
 .block-heading-h1 {
-    color: rgb(0, 129, 129);	
+    color: lightslategrey;	
 	font-weight: 400;
 	padding-top: 5%;
     font-size: 55px;
@@ -258,14 +257,14 @@ p {
 }
 
 h2 {
-    color: rgb(0, 129, 129);
+    color: lightslategrey;
 	font-weight: 400;
 	text-decoration: underline;
     font-size: 30px;
     font-family:  'Milonga', cursive;
 }
 h3 {
-    color: rgb(0, 129, 129);	
+    color: lightslategrey;	
 	font-weight: 400;
 	font-size: 26px;
     font-family:  'Milonga', cursive;
@@ -293,11 +292,13 @@ h3 {
 }
 
 .img-text {
+	font-weight: 800;
+	font-size: large;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	z-index: 999;
+	z-index: 1;
 	opacity: 0;
 }
 

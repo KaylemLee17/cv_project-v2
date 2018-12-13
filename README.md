@@ -20,4 +20,5 @@ Online resume for myself.
 
 ## Contributors
 
-Kaylem-Lee Andrews mi&dot 2018 
+Kaylem-Lee Andrews &middot 2018
+
